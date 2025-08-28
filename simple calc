@@ -1,0 +1,8 @@
+def cal(*grads):
+    total= sum(grads)
+    avg= total/len (grads)
+    return total, avg
+
+s, avg = cal(5,3,15,7,2,3,23.53,56,64,53,43)
+print ("sum", s)
+print("average", avg)
